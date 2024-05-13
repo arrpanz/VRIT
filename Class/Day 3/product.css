@@ -1,0 +1,75 @@
+.nav h1{
+    text-align: left;
+    color: white;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 15px;
+    width: 250px;
+    height: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+    border-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-size: 20px;
+}
+.card img{
+    object-fit:fill;
+    max-height: 40%;
+    margin: 10px;
+
+    
+}
+
+.price{
+    font-size: 40px;
+}
+
+.card button{
+    align-self:center;
+    height: 50px;
+    width: 140px;
+    margin: 0;
+    padding: auto;
+   border: 20px;
+   font: inherit;
+   border-radius: 10px;
+   background-color: rgb(183, 42, 42);
+    color:rgb(241, 241, 241);
+}
+
+ .card button:hover {
+        cursor: pointer;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+      .prod-container{
+       
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+      }
+      .lf{
+        width: 80%;
+      }
+      .adidas{
+        width: 100%;
+        height: 50%;
+      }
